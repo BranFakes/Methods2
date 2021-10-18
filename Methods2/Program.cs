@@ -31,15 +31,15 @@ namespace Methods2
             health = 100;
 
             ShowHUD();
-            TakeDamage(10);
+           // TakeDamage(10);
             ShowHUD();
-            TakeDamage(25);
+           
             ShowHUD();
 
 
-            //missed most of it cause this man doesnt like to show more then 1/3 of his screen at a time.. horrible teacher..
+            //missed most of it cause this man doesnt like to show more then 1/3 of his screen at a time.. 
 
-
+            Console.ReadKey();
         }
     }
 }
